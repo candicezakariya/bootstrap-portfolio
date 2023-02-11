@@ -1,0 +1,170 @@
+/* Basic Code */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    line-height: 1.15;
+}
+
+body{
+    margin:0;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #1d2327;
+    text-align: left;
+    background-color: white;
+}
+
+.section-title {
+    color:#ac7a97;
+}
+
+/* Header Section */
+
+.logo-text {
+    color: #ac7a97;
+}
+.about-img {
+    margin-left: -100px;
+    margin-top: 10px;
+    right: -60px;
+}
+
+.btn {
+    padding: 10px 25px;
+    border-radius: 100px;
+}
+
+.btn-color {
+    background-color: #ac7a97;
+    color: white;
+    border: 2.4px solid #ac7a97
+}
+
+.btn-color:hover {
+    background-color: #71475b;
+    color: white;
+    border: 2.4px solid #71475b;
+}
+
+.btn-white {
+    border: 2.4px solid #ac7a97;
+    color: #ac7a97;
+}
+
+.btn-white:hover {
+    border: 2.4px solid #ac7a97;
+    color: #ac7a97;
+    background-color: #f2e3ec;
+}
+
+.hero-text {
+    margin-top: 10px;
+}
+
+.position-absolute {
+    font-weight: 700;
+}
+
+/* Navigation Menu */
+.sticky-top{
+    background-color: white;
+}
+
+a {
+    color:#ac7a97;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 25px 10px;
+    color: #1d2327;
+    font-weight: 500;
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ac7a97;
+}
+
+.btn-circle {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+  }
+  
+  .btn-circle i {
+    position: relative;
+    top: -1px;
+  }
+  
+  .btn-circle-sm {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 0.9rem;
+  }
+
+/* Projects */
+
+.button-outline-secondary {
+    border-color: #ac7a97;
+}
+
+/* About Section */
+
+/* Timeline holder */
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+ /* Timeline vertical line */
+ul.timeline:before {
+    content: ' ';
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+}
+
+li.timeline-item {
+    margin: 20px 0;
+}
+
+/* Timeline item arrow */
+.timeline-arrow {
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid #fff;
+    border-bottom: 0.5rem solid transparent;
+    display: block;
+    position: absolute;
+    left: 2rem;
+}
+
+/* Timeline item circle marker */
+li.timeline-item::before {
+    content: ' ';
+    background: #eed9e5;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    left: 11px;
+    width: 14px;
+    height: 14px;
+    z-index: 400;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}

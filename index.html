@@ -1,19 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
 
-    <title>Candice Zakariya - Web Developer, Educator, and Content Creator</title>
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Candice Zakariya - Front-End Developer, Educator, and Content Creator</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
 </head>
 <body>
-    
+    <!-- Navigation Menu -->
+
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light py-3 py-lg-100 px-lg-5">
+        <div class="container">
+            <a href="index.html" class="navbar-brand ml-lg-0">
+                <h1 class="m-0 display-5">
+                    Candice<span class="logo-text">Zakariya</span>
+                </h1>
+            </a>
+            <!-- Button for Mobile Devices -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav m-auto py-0">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                </div> 
+                <div class="navbar-nav m-auto py-0">
+                    <!-- sm circle button-->
+                    <button class="btn btn-color btn-circle btn-circle-sm m-1"><i class="fa fa-brands fa-github-alt"></i></i></button>
+                    <button class="btn btn-color btn-circle btn-circle-sm m-1"><i class="fa fa-brands fa-linkedin"></i></i></button>
+                    <button class="btn btn-color btn-circle btn-circle-sm m-1"><i class="fa fa-brands fa-youtube"></i></button>
+                </div> 
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="container-fluid bg-light d-flex align-ites-center mb-5 py-5" id="home" style="min-height: 100vh;">
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 hero-text text-center text-lg-left">
+                    <h3 class="font-weight-light mb-3">Hello, my name is</h3>
+                    <h1 class="display-2 text-uppercase text-primary mb-" style="-webkit-text-stroke:7px #ac7a97;">Candice Zakariya</h1>
+                    <h2 class="font-weight-light">Front-End Developer •<br>Educator • Content Creator</h2>
+
+                    <!-- Button -->
+                    <div class="d-flex align-items-center justify-conter-center justify-conter-lg-start pt-4">
+                        <a href="" class="btn btn-color mr-4">Download CV</a>
+                        <a href="" class="btn btn-white d-none d-sm-block">Let's Connect</a>
+                    </div>
+                </div>
+                <!-- Image -->
+
+                <div class="about-img col-lg-6 px-8 pl-lg-0 pb-5 pb-lg-4">
+                    <img src="images/profile.png" alt="Picture of Candice Zakariya" class="img-fluid w-100">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End Header -->
+
+    <!-- Portfolio Section -->
+    <div class="container-fluid py-5" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke:1px #dee2e6">
+                Projects</h1>
+                <h1 class="position-absolute text-uppercase section-title">Portfolio</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="" alt="">
+                </div>
+                <div class="album py-5">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="card mb-4 shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect fill="#55595c" width="100%" height="100%"/></svg>
+                            <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-color">Github</button>
+                                    <button type="button" class="btn btn-sm btn-white">Project</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card mb-4 shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect fill="#55595c" width="100%" height="100%"/></svg>
+                            <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-color">Github</button>
+                                    <button type="button" class="btn btn-sm btn-white">Project</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card mb-4 shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect fill="#55595c" width="100%" height="100%"/></svg>
+                            <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-color">Github</button>
+                                    <button type="button" class="btn btn-sm btn-white">Project</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                
+                        <div class="col-md-4">
+                          <div class="card mb-4 shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect fill="#55595c" width="100%" height="100%"/></svg>
+                            <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-color">Github</button>
+                                    <button type="button" class="btn btn-sm btn-white">Project</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card mb-4 shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect fill="#55595c" width="100%" height="100%"/></svg>
+                            <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-color">Github</button>
+                                    <button type="button" class="btn btn-sm btn-white">Project</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card mb-4 shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect fill="#55595c" width="100%" height="100%"/></svg>
+                            <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-sm btn-color">Github</button>
+                                  <button type="button" class="btn btn-sm btn-white">Project</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio -->
+
+    <!-- About Section -->
+    <div class="container-fluid py-5 bg-light" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke:1px #dee2e6">
+                Candice</h1>
+                <h1 class="position-absolute text-uppercase section-title">About</h1>
+            </div>
+            <div class="container py-5">            
+                <div class="row">
+                        <div class="about-img col-lg-6 px-8 pl-lg-0 pb-5 pb-lg-4">
+                            <img src="images/about-me-profile.png" alt="Picture of Candice Zakariya" class="img-fluid w-100 rounded">
+                        </div>
+                        <!-- Insert About Me Content -->
+
+                    <div class="col-lg-6 mx-auto">
+                        
+                        <!-- Timeline -->
+                        <ul class="timeline">
+                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div class="timeline-arrow"></div>
+                                <h2 class="h5 mb-0">Web Admin • Texas Workforce Commission</h2><span class="small text-gray">Full-Time (Remote) | <i class="fa fa-clock-o mr-1"></i>December 2022—Present</span>
+                                <p class="text-small mt-2 font-weight-light">Works closely with stakeholders to analyze web publishing requests, provide feedback, suggests improvements, and complete web publishing requests—including web design, development, deployment, and maintenance activities.</p>
+                                <hr><p class="text-small mt-2 font-weight-light">Skills: JavaScript · HTML5 · Cascading Style Sheets (CSS) · Web Design</p>
+                            </li>
+                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div class="timeline-arrow"></div>
+                                <h2 class="h5 mb-0">Lead Software Development Instructor • ThriveDx</h2><span class="small text-gray">Part-Time (Remote) | <i class="fa fa-clock-o mr-1"></i>December 2022—Present</span>
+                                <p class="text-small mt-2 font-weight-light">Bring my experience and knowledge as a front-end web developer to teach the fundamentals of software development.</p>
+
+                                <p class="text-small mt-2 font-weight-light">Equipping adult learners of all socioeconomic backgrounds to begin their journey into software development—one student at a time.</p>
+                                <hr>
+                                <p class="text-small mt-2 font-weight-light">Skills: Instructor-led Training · JavaScript · HTML5 · Cascading Style Sheets (CSS)</p>
+                            </li>
+                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div class="timeline-arrow"></div>
+                                <h2 class="h5 mb-0">Freelance Web Developer • Self-Employed</h2><span class="small text-gray">Part-Time (Remote) | <i class="fa fa-clock-o mr-1"></i>May 2018—December 2022</span>
+                                <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                            </li>
+                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div class="timeline-arrow"></div>
+                                <h2 class="h5 mb-0">Math Teacher • Harmony Science Academy & Elevate K12</h2><span class="small text-gray">Full-Time (Dallas, TX) <i class="fa fa-clock-o mr-1"></i>August 2013—July 2018</span>
+                                <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                                <p class="text-small mt-2 font-weight-light">Voluptatibus temporibus esse illum eum aspernatur, fugiat suscipit natus! Eum corporis illum nihil officiis tempore. Excepturi illo natus libero sit doloremque, laborum molestias rerum pariatur quam ipsam necessitatibus incidunt, explicabo.</p>
+                            </li>
+                        </ul><!-- End Timeline-->
+        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Contact Section -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke:1px #dee2e6">
+                Contact</h1>
+                <h1 class="position-absolute text-uppercase section-title">Let's Connect</h1>
+            </div>
+            <div class="row row-content">
+                <div class="col-12">
+                    <br>
+                </div>
+                <div class="col-md-10">
+                  <form>
+                    <div class="form-group row">
+                      <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                      <div class="col-md-10">
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                      <div class="col-md-10">
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                      <div class="col-5 col-md-3">
+                        <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code">
+                      </div>
+                      <div class="col-7">
+                        <input type="tel" class="form-control" name="telNum" placeholder="Tel. number">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="email" class="col-md-2 col-form-label">Email</label>
+                      <div class="col-md-10">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col offset-md-2">
+                        May we contact you?
+                        <div class="form-check form-check-inline">
+                          <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes">
+                          <label for="contactYes" class="form-check-label">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no">
+                          <label for="contactNo" class="form-check-label">No</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                      <div class="col-md-10">
+                        <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="offset-md-2 col-md-10">
+                        <button type="submit" class="btn btn-color">
+                          Send Feedback
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+
+    <!-- Footer Section -->
+    <footer class="container-fluid bg-light mt-5 py-1 px-sm-1 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <button class="btn btn-color btn-circle btn-circle-sm m-1"><i class="fa fa-brands fa-github-alt"></i></i></button>
+                <button class="btn btn-color btn-circle btn-circle-sm m-1"><i class="fa fa-brands fa-linkedin"></i></i></button>
+                <button class="btn btn-color btn-circle btn-circle-sm m-1"><i class="fa fa-brands fa-youtube"></i></button>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a href="#">Privacy</a>
+                <span class="px-3">|</span>
+                <a href="#">Terms</a>
+            </div>
+            <p class="m-0">2023 &copy;
+                <a href="#" class="font-width-bold">Candice Zakariya</a>. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+    <!-- End About -->
+
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
